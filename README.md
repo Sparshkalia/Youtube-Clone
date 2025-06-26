@@ -27,8 +27,8 @@ A full-featured YouTube-inspired video sharing platform built with the MERN stac
 | Backend      | Node.js, Express.js                     |
 | Database     | MongoDB Atlas, Mongoose ODM             |
 | Auth         | JSON Web Tokens (JWT)                   |
-| File Storage | Firebase Storage (for videos)           |
-| Dev Tools    | dotenv, concurrently, nodemon           |
+| File Storage | Cloudinary (for videos)                 |
+| Dev Tools    | dotenv, nodemon                         |
 
 ---
 
@@ -89,9 +89,9 @@ REACT_APP_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
 REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_id
 REACT_APP_FIREBASE_APP_ID=your_app_id
 Note: Get Firebase config from Firebase Console
-
+```
 3. Install dependencies
-bash
+```bash
 Copy
 Edit
 # Backend
@@ -115,7 +115,7 @@ npm run dev
 App will be available at:
 Frontend → http://localhost:3000
 Backend API → http://localhost:5000
-
+```
 🔌 API Endpoints (Sample)
 Method	Endpoint	Description
 POST	/api/auth/register	Register a new user
