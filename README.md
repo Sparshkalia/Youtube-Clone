@@ -62,26 +62,8 @@ Edit
 
 ## 📦 Getting Started
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Sparshkalia/Youtube-Clone.git
-cd Youtube-Clone
-2. Set up environment variables
-🔧 Backend (backend/.env)
-ini
-Copy
-Edit
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-FIREBASE_PROJECT_ID=your_project_id
-FIREBASE_PRIVATE_KEY=your_private_key
-FIREBASE_CLIENT_EMAIL=your_client_email
 🌐 Frontend (frontend/.env)
-ini
-Copy
-Edit
+```bash
 REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
 REACT_APP_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
 REACT_APP_FIREBASE_PROJECT_ID=your_project_id
@@ -90,7 +72,6 @@ REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_id
 REACT_APP_FIREBASE_APP_ID=your_app_id
 Note: Get Firebase config from Firebase Console
 ```
-3. Install dependencies
 # Backend
 ```bash
 cd backend
@@ -112,7 +93,6 @@ npm install
 npm create vite@latest .                                                                                                              
 npm install -D tailwindcss @tailwindcss/postcss postcss
 ```
-4. Run the application
 # Start backend
 ```bash
 cd backend
