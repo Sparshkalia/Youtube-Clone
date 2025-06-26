@@ -91,25 +91,35 @@ REACT_APP_FIREBASE_APP_ID=your_app_id
 Note: Get Firebase config from Firebase Console
 ```
 3. Install dependencies
-```bash
-Copy
-Edit
 # Backend
+```bash
 cd backend
-npm install
-
+npm install express
+npm i dotenv     
+npm i axios
+npm i -D nodemon
+npm i -D prettier
+npm i mongoose
+npm i cookie-parser cors
+npm i mongoose-aggregate-paginate-v2
+npm i multer
+npm install cloudinary
+```
 # Frontend
+```bash
 cd ../frontend
 npm install
+npm create vite@latest .                                                                                                              
+npm install -D tailwindcss @tailwindcss/postcss postcss
+```
 4. Run the application
-bash
-Copy
-Edit
 # Start backend
+```bash
 cd backend
 npm run dev
-
+```
 # Start frontend
+```bash
 cd ../frontend
 npm run dev
 App will be available at:
@@ -127,8 +137,6 @@ PUT	/api/videos/:id/like	Like a video
 POST	/api/videos/:id/comment	Comment on a video
 GET	/api/users/:id	Get user details
 
-🧪 Testing
-Currently supports manual testing. (Optional: Integrate with Jest or Postman collection for automated tests)
 
 📦 Deployment
 You can deploy the app to:
@@ -139,29 +147,9 @@ Backend: Render, Heroku, or Railway
 
 Database: MongoDB Atlas
 
-Storage: Firebase Storage
+Storage: Cloudinary
 
-📸 Screenshots (Optional)
-Add some screenshots or screen recordings here to show off your UI/UX!
-
-🤝 Contributing
-Contributions, issues, and feature requests are welcome!
-
-Fork the repository
-
-Create your feature branch (git checkout -b feature/feature-name)
-
-Commit your changes (git commit -m "feat: added feature")
-
-Push to the branch (git push origin feature/feature-name)
-
-Open a pull request
-
-📄 License
-Distributed under the MIT License. See LICENSE for more information.
 
 🙋‍♂️ Author
 Sparsh Kalia
-📫 LinkedIn
-📧 sparsh@example.com
 
